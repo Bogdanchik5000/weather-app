@@ -1,0 +1,48 @@
+.wrap {
+  background: var(--bg-color);
+  height: 100vh;
+  height: 100dvh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-city {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.temp-main {
+  text-align: center;
+  font-size: 18px;
+}
+
+.temp {
+  font-size: 60px;
+}
+
+.temp-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.temp-footer {
+  background: var(--weather-info-bg-color);
+  border-radius: 20px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.btn-prev {
+  margin: 0 auto;
+  padding: 15px;
+}
